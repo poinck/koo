@@ -18,6 +18,6 @@ DEPEND="${RDEPEND}"
 
 src_install() {
 	# default
-	emake DESTDIR="${D}" install
+	make DESTDIR="${D}" install
 
 }
