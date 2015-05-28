@@ -1,5 +1,4 @@
 # by André Klausnitzer, CC0
-# $Header: /var/cvsroot/gentoo-x86/app-misc/lampe/lampe-0.9.1.ebuild,v 1.0 2015/05/28 06:50:29 poinck Exp $
 
 EAPI=5
 
