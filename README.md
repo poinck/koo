@@ -1,2 +1,2 @@
-# koo
+# Readme: koo
 a gentoo overlay
