@@ -1,0 +1,2 @@
+# koo
+a gentoo overlay
