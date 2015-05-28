@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<layman>
+<overlay
+type = "git"
+src = "https://poinck@github.com/poinck/koo.git"
+contact = ""
+status = "unofficial"
+name = "koo">
+<link>https://github.com/poinck/koo</link>
+<description>a gentoo overlay from poinck</description>
+</overlay>
+</layman>
