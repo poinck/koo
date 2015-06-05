@@ -2,7 +2,7 @@
 
 EAPI=5
 
-DESCRIPTION="interactive bash-script to control up to 9 Philips Hue lights"
+DESCRIPTION="interactive bash-script to control your Philips Hue lights"
 HOMEPAGE="https://github.com/poinck/lampe"
 SRC_URI="https://github.com/poinck/lampe/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
