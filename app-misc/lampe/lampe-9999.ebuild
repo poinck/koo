@@ -8,7 +8,7 @@ SRC_URI="https://github.com/poinck/lampe/archive/master.zip -> ${P}.zip"
 
 LICENSE="CC0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~x86"
+KEYWORDS=""
 IUSE=""
 
 RDEPEND="net-misc/curl
