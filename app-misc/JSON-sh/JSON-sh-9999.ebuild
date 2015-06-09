@@ -11,8 +11,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-RDEPEND="virtual/awk
-	sys-apps/grep"
+RDEPEND="virtual/awk"
 DEPEND="${RDEPEND}"
 	
 S="${WORKDIR}/JSON.sh-master"
