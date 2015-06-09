@@ -13,8 +13,7 @@ IUSE=""
 
 RDEPEND="net-misc/curl
 	sys-apps/sed
-	sys-apps/grep
-	app-misc/JSON.sh"
+	app-misc/JSON-sh"
 DEPEND="${RDEPEND}"
 
 src_install() {

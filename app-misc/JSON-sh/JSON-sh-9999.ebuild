@@ -4,7 +4,7 @@ EAPI=5
 
 DESCRIPTION="a pipeable JSON parser written in bash"
 HOMEPAGE="https://github.com/dominictarr/JSON.sh"
-SRC_URI="https://github.com/dominictarr/JSON.sh/archive/master.zip -> ${P}.zip"
+SRC_URI="https://github.com/dominictarr/JSON.sh/archive/master.zip -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -13,8 +13,9 @@ IUSE=""
 
 RDEPEND="virtual/awk
 	sys-apps/grep"
-DEPEND="${RDEPEND}
-	app-arch/unzip"
+DEPEND="${RDEPEND}"
+	
+S="${WORKDIR}/JSON.sh-master"
 
 src_install() {
 	# emake DESTDIR="${D}" install
