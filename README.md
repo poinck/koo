@@ -1,6 +1,11 @@
 # Readme: koo
-A Gentoo overlay with applications I wrote:
-- lampe: interactive bash-script to control Philips Hue lights 
+A Gentoo overlay
+
+**Apllications I wrote**
+- lampe: interactive bash-script to control your Philips Hue lights
+
+**Dependencies**
+- json.sh: bash-script to parse json *(TODO)*
 
 ## Requirements
 - Gentoo Linux
