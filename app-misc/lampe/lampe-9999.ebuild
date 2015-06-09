@@ -13,7 +13,8 @@ IUSE=""
 
 RDEPEND="net-misc/curl
 	sys-apps/sed
-	sys-apps/grep"
+	sys-apps/grep
+	app-misc/json-sh"
 DEPEND="${RDEPEND}
 	app-arch/unzip"
 
