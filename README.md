@@ -5,7 +5,7 @@ A Gentoo overlay
 - lampe: interactive bash-script to control your Philips Hue lights
 
 **Dependencies**
-- json.sh: bash-script to parse json *(TODO)*
+- json.sh: bash-script to parse json
 
 ## Requirements
 - Gentoo Linux
