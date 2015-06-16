@@ -8,7 +8,7 @@ SRC_URI="https://github.com/poinck/JSON.sh/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~x86"
+KEYWORDS="amd64 arm x86"
 IUSE=""
 
 RDEPEND="virtual/awk"
