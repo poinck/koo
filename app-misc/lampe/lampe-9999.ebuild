@@ -2,9 +2,12 @@
 
 EAPI=5
 
+EGIT_REPO_URI="git://github.com/poinck/lampe.git"
+inherit git-r3
+
 DESCRIPTION="interactive bash-script to control up to 9 Philips Hue lights"
 HOMEPAGE="https://github.com/poinck/lampe"
-SRC_URI="https://github.com/poinck/lampe/archive/master.tar.gz -> ${P}.tar.gz"
+SRC_URI=""
 
 LICENSE="CC0"
 SLOT="0"
