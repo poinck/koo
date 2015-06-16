@@ -17,7 +17,7 @@ IUSE=""
 RDEPEND="virtual/awk"
 DEPEND="${RDEPEND}"
 	
-S="${WORKDIR}/JSON.sh-${PV}"
+S="${WORKDIR}/JSON-sh-${PV}"
 
 src_install() {
 	dobin JSON.sh
