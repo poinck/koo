@@ -17,7 +17,8 @@ IUSE=""
 RDEPEND="net-misc/curl
 	sys-apps/sed
 	app-misc/JSON-sh"
-DEPEND="${RDEPEND}"
+DEPEND="${RDEPEND}
+	>=dev-lang/vala-0.24.0"
 
 src_install() {
 	# default
