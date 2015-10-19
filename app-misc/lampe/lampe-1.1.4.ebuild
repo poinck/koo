@@ -20,7 +20,7 @@ RDEPEND="net-misc/curl
 	dev-libs/json-glib
 	>=x11-libs/gtk+-3.14:3
 	>=net-libs/libsoup-2.48.1
-	redshift[geoclue]"
+	x11-misc/redshift[geoclue]"
 DEPEND="${RDEPEND}
 	$(vala_depend)"
 
